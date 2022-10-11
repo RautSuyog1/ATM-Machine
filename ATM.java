@@ -6,7 +6,7 @@ public class ATM {
 
 
         while (true) {
-            System.out.println("\n\t ***Welcome to Edubridge Bank*** ");
+            System.out.println("\n\t ***Welcome to Edubridge ATM*** ");
             System.out.println("\n\t 1. Deposite Money ");
             System.out.println("\n\t 2. Withdraw Money  ");
             System.out.println("\n\t 3. Check Balance  ");
