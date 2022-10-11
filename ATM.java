@@ -6,7 +6,7 @@ public class ATM {
 
 
         while (true) {
-            System.out.println("\n\t ***Welcome to Edubridge ATM*** ");
+            System.out.println("\n\t *** Welcome to Edubridge ATM *** ");
             System.out.println("\n\t 1. Deposite Money ");
             System.out.println("\n\t 2. Withdraw Money  ");
             System.out.println("\n\t 3. Check Balance  ");
@@ -21,10 +21,10 @@ public class ATM {
                     pin=sc.nextInt();
                     if(pin==1234)
                     {
-                    System.out.println("\n\t Enter total amm to insert=");
+                    System.out.println("\n\t Enter total amount to insert = ");
                     amt = sc.nextInt();
                     cb = cb + amt;
-                    System.out.println("\n\t Amt Deposited Succesfully.. Your current balance is " + cb);
+                    System.out.println("\n\t Amount Deposited Succesfully.. Your current balance is " + cb);
                     }
                     else{
                     System.out.println("Incorrect PIN");
@@ -41,7 +41,7 @@ public class ATM {
                  }
                     else
                  {
-                    System.out.println("\n\t Emter amm to withdraw= ");
+                    System.out.println("\n\t Emter amount to withdraw = ");
                     withdraw = sc.nextInt();
                     if ((cb - withdraw) < 500)
                         System.out.println("\n\t Minimum balanace require(500) ");
