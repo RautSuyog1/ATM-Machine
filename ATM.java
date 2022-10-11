@@ -47,8 +47,7 @@ public class ATM {
                         System.out.println("\n\t Minimum balanace require(500) ");
                     else
                         cb = cb - withdraw;
-                        System.out.println("\n\tPlease collect your money("+withdraw+")");
-
+                           System.out.println("\n\tPlease collect your money("+(withdraw-500)+")");
                 }
             }
                 else{
